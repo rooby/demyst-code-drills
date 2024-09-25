@@ -1,0 +1,31 @@
+.balance-sheet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin: 10px 0;
+    }
+  }
+
+  .loading {
+    font-weight: bold;
+  }
+
+  .error {
+    padding: 10px;
+    border: 1px solid var(--error-color);
+    border-radius: 5px;
+    background-color: hsl(from var(--error-color) h s l / 20%);
+    color: var(--error-color);
+  }
+}

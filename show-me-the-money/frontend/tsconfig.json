@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "composite": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@assets/*": ["./assets/*"],
+      "@modules/*": ["./modules/*"]
+    }
+  },
+  "files": [],
+  "include": ["src", "./jest.setup.ts"],
+  "references": [
+    {"path": "./tsconfig.app.json"},
+    {"path": "./tsconfig.node.json"}
+  ]
+}
