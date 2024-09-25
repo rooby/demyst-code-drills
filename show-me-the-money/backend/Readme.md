@@ -15,10 +15,12 @@ An API to request report data from Xero and return it in a format suitable for t
 
 ## Working on the project
 
+1. Run `npm install` - if you haven't already.
 1. Run `npm run dev`
 1. The API will be running on port 3001
 
 ## Running the project locally
 
+1. Run `npm install` - if you haven't already.
 1. Run `npm run build && npm run preview`
 1. The API will be running on port 3001
